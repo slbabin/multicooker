@@ -71,11 +71,26 @@ header {
     font-weight: bold;
     color: #322E2E;
 }
+/*Short description sectio*/
+
 #short-description-section{
     background-color: #322E2E;
+    
 }
-#short-description-section div{
+
+
+.short-desc {
     color: #D9D9D9;
-    width: 20%;
-    float: left;
+    width: 15%;
+    height: 200px;
+    float: center;
+    border-bottom: 1px solid #D9D9D9;
+    margin-left: 20px;
+    margin-top: 30px;
+ 
+}
+
+#full-desctipiton-section {
+    background-color: #615D5D;
+    clear: both;
 }
