@@ -10,11 +10,18 @@ body {
     font-weight: 300;
     color: #322E2E;
 }
-
+header {
+    height: 100px;
+    background-color: #D9D9D9;
+}
 #logo {
     float: left;
     font-size: 280%;
     margin-left: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: #da0112;
+
 }
 #menu, #logo {
     line-height: 75px;
@@ -32,4 +39,10 @@ body {
 }
 #menu a:hover {
     border-bottom: 5px solid #3a3a3a;
+}
+
+#main-image {
+    height: 500px;
+    background: url("../images/head-image-2.webp") no-repeat center center;
+    background-size: cover;
 }
