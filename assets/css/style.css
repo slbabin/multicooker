@@ -78,17 +78,26 @@ header {
     
 }
 
-
-.short-desc {
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* gap: 10px; */
+    width: 80%;
+    background-color: #322E2E;
     color: #D9D9D9;
-    width: 15%;
-    height: 200px;
-    float: center;
-    border-bottom: 1px solid #D9D9D9;
-    margin-left: 20px;
-    margin-top: 30px;
- 
-}
+    margin: 0 auto 0 auto;
+    padding: 20px;
+  }
+  .grid-container > div {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    /* border: 1px solid black; */
+    text-align: center;
+    font-size: 14px;
+    padding: 20px;
+  }
+/* .short-desc {
+    color: #D9D9D9; 
+} */
 
 #full-desctipiton-section {
     background-color: #615D5D;
