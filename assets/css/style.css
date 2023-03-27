@@ -23,8 +23,11 @@ header {
     color: #da0112;
 
 }
-#menu, #logo {
-    line-height: 75px;
+#menu {
+    line-height: 140px;
+}
+#logo {
+    line-height: 100px;
 }
 
 /*Navigation styling*/
@@ -36,9 +39,12 @@ header {
 }
 #menu a {
     text-decoration: none;
+    color: #3a3a3a;
+    font-weight: bold;
 }
 #menu a:hover {
-    border-bottom: 5px solid #3a3a3a;
+    border-bottom: 1px solid #3a3a3a;
+    font-size:110%;
 }
 
 #main-image {
@@ -108,6 +114,7 @@ header {
 
 .short-desc h4 {
      font-size: 120%;
+     margin-bottom: 10px;
 
 }
 
