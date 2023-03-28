@@ -131,9 +131,21 @@ header {
 #full-desctipiton-section p {
     color: #D9D9D9;
 }
+#full-desctipiton-section>div {
+    margin-bottom: 40px;
+}
 
-.full-desc-box{
+.full-desc-left{
     width: 400px;
     float: left;
 
+}
+.full-desc-right{
+    width: 400px;
+    float: left;
+
+}
+
+#product-links-section{
+    clear: both;
 }
