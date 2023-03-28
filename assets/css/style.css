@@ -136,12 +136,12 @@ header {
 }
 
 .full-desc-left{
-    width: 400px;
+    width: 40%;
     float: left;
 
 }
 .full-desc-right{
-    width: 400px;
+    width: 40%;
     float: left;
 
 }
@@ -150,4 +150,9 @@ header {
 }
 #product-links-section{
     clear: both;
+}
+.short-desc-img {
+    width: 50px;
+    height: auto;
+    float: left;
 }
