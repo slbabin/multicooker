@@ -126,23 +126,36 @@ header {
 #full-desctipiton-section h2 {
     color: #D9D9D9;
     text-align: center;
-    line-height: 50px;
+    line-height: 80px;
+    font-size: 2.5rem;
+    font-weight: bold;
 }
 #full-desctipiton-section p {
     color: #D9D9D9;
 }
-#full-desctipiton-section>div {
+.full-description-main{
     margin-bottom: 40px;
+    width: 90%;
+    margin: 0 auto 30px auto;
+    text-align: justify;
 }
-
+.full-description-outer{
+    margin-top: 20px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
 .full-desc-left{
     width: 40%;
     float: left;
+    width: 45%;
 
 }
 .full-desc-right{
     width: 40%;
-    float: left;
+    float: right;
+    width: 45%;
 
 }
 .clear{
@@ -152,9 +165,11 @@ header {
     clear: both;
 }
 .short-desc-img {
-    width: 50px;
+    width: 140px;
     height: auto;
     float: left;
+    margin-bottom: 30px;
+    margin-right: 30px;
 }
 /*Product links*/
 #product-links-section{
