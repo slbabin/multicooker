@@ -46,12 +46,17 @@ header {
     border-bottom: 1px solid #3a3a3a;
     font-size:110%;
 }
+.current-page {
+    border-bottom: 1px solid #3a3a3a;
+    font-size:110%;
+}
 
 #main-image {
     height: 500px;
     background: url("../images/head-image-2.webp") no-repeat center center;
     background-size: cover;
 }
+
 #main-image-section{
     position: relative;
 }
