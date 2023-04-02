@@ -13,6 +13,7 @@ body {
 header {
     height: 100px;
     background-color: #D9D9D9;
+    position: relative;
 }
 #logo {
     float: left;
@@ -24,7 +25,8 @@ header {
 
 }
 #menu {
-    line-height: 140px;
+    
+    /* line-height: 140px; */
 }
 #logo {
     line-height: 100px;
