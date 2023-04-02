@@ -17,6 +17,7 @@ header {
 }
 #logo {
     float: left;
+    clear: left;
     font-size: 280%;
     margin-left: 30px;
     font-family: 'Ubuntu', sans-serif;
@@ -24,10 +25,13 @@ header {
     color: #da0112;
 
 }
+
 #menu {
-    
-    /* line-height: 140px; */
-}
+    position: absolute;
+    top: 70px;
+    right: 20px;
+ }
+
 #logo {
     line-height: 100px;
 }
