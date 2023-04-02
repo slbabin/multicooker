@@ -183,7 +183,7 @@ header {
     line-height: 100px;
 }
 #prod-links {
-    width: 60%;
+    width: 80%;
     margin: 0 auto 0 auto;
     font-size: 110%;
     letter-spacing: 2px;
@@ -197,6 +197,7 @@ header {
 }
 #prod-links a {
     text-decoration: none;
+    padding: 30px;
     color: #da0112;
 }
 #prod-links i {
@@ -204,7 +205,14 @@ header {
 }
 #prod-links a:hover {
     font-weight: 600;
+    color: #ef6a6a;
+   
 }
+/* #prod-links a i:hover {
+    color: #f37882;
+    font-size:110%;
+} */
+/*Footer style*/
 footer {
     height: 150px;
     background-color: #3a3a3a;
@@ -231,8 +239,9 @@ footer ul{
 
 .subscribe-form {
     width: 30%;
-    /* color: #322e2e; */
-    /* background-color: #3a3a3a; */
+    color: #D9D9D9;
+    font-size: 1.2rem;
+    font-family:inherit;
     border: none;
 	border-bottom: 1px solid #ddd;
 	background: transparent;
@@ -240,7 +249,11 @@ footer ul{
     padding: 10px;
     margin-top: 60px;
     border-radius: 3px;
-    
+}
+
+.subscribe-form:focus {
+    outline-style: inherit; 
+
 
 }
 ::placeholder {
@@ -256,7 +269,7 @@ footer ul{
     box-sizing: border-box;
     padding: 10px;
     margin-top: 60px;
-    /* border-radius: 3px; */
+    cursor: pointer;
   }
   .subscribe-form-button:hover {
     color: #f6f0f0;
