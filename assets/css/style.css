@@ -387,11 +387,21 @@ table {
 
     /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+
+    #cover-text {
+         width: 70%;
+        
+        }
     #cover-text h1 {
         font-family: 'Ubuntu', sans-serif;
-        font-size: 100%;
+        font-size: 200%;
         font-weight: bold;
-        color: #810505;
+        color: #393636;
+    }
+    #main-image {
+        height: 400px;
+        /* background: url(../images/head-image-2.webp) no-repeat right center; */
+       
     }
 }
 
