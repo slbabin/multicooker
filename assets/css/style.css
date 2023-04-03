@@ -379,3 +379,15 @@ table {
     content: "";
     width: 350px;
     }
+
+    /*Video section style*/
+    /* .video-container {
+        position: relative;
+        width: 100%;
+        height: 0;
+    } */
+    .video {
+ 
+        width: 100%;
+        height: 500px;
+    }
