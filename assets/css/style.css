@@ -473,7 +473,18 @@ table {
     
 }
 
+/* Large devices (small laptops and desktops, up to 900px ) */
+@media (max-width: 900px) {
 
+    #cover-text {
+        width: 50%;
+    }
+    
+    cover-text h1 {
+        font-size: 300%;
+     }
+
+}
 /* Large devices (laptops and desktops, up to 1200px ) */
 @media (max-width: 1200px) {
     
