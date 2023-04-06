@@ -227,14 +227,16 @@ footer ul{
 }
 .social-networks {
     text-align: center;
+    margin-top: 70px;
 }
 .social-networks > li {
-    display: inline;
+    display: inline-block;
+    width: 20%;
 }
 .social-networks i {
     font-size: 160%;
-    margin-right: 10% ;
-    margin-top: 40px;
+    /* margin-right: 10% ; */
+    /* margin-top: 40px; */
     padding: 4%;
     color: #D9D9D9;
     }
@@ -420,7 +422,11 @@ table {
         padding-bottom: 20px;
         border-bottom: 1px solid #ddd;
         }
-
+        #prod-links li {
+            width: 100%;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
 }
 
 /* Medium devices (landscape tablets, up to 768px) */
@@ -482,7 +488,7 @@ table {
     }
     #main-image {
         height: 350px;
-        /* background: url(../images/head-image-2.webp) no-repeat right center; 
+        /* background: url("../images/head-image-2.webp") no-repeat left left;  */
        
     }
     .grid-container {
