@@ -383,8 +383,92 @@ table {
         height: 500px;
     }
 
-    /* Extra small devices (phones, 600px and down) */
-@media (max-width: 600px) {
+ 
+
+/* Large devices (small laptops and desktops, up to 900px ) */
+@media (max-width: 900px) {
+
+    #cover-text {
+        width: 50%;
+    }
+    
+   #cover-text h1 {
+        font-size: 300%;
+     }
+.full-desc-left {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    }
+
+.full-desc-right {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    }
+}
+/* Large devices (laptops and desktops, up to 1200px ) */
+@media (max-width: 1200px) {
+    .full-desc-left {
+        margin-bottom: 30px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #ddd;
+        }
+    
+    .full-desc-right {
+        margin-bottom: 30px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #ddd;
+        }
+
+}
+
+/* Medium devices (landscape tablets, up to 768px) */
+@media (max-width: 768px) {
+    #main-image {
+        height: 400px;
+    }
+    #cover-text {
+        width: 60%;       
+       }
+   #cover-text h1 {
+       font-family: 'Ubuntu', sans-serif;
+       font-size: 250%;
+       font-weight: bold;
+       color: #393636;
+   }
+
+    #prod-links li {
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+    }
+  
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 1px;
+        width: 80%;  
+      }
+      .full-desc-left{
+        width: 100%;
+        /* float: left; */
+    
+    }
+    .full-desc-right{
+        width: 100%;
+        /* float: right; */
+    
+    }
+    .img-right-float {
+    float: right;
+    margin-left: 30px;
+}
+    
+}
+
+   /* Extra small devices (phones, 600px and down) */
+   @media screen and (max-width: 600px) {
 
     #cover-text {
          width: 70%;
@@ -397,8 +481,8 @@ table {
         color: #393636;
     }
     #main-image {
-        height: 400px;
-        /* background: url(../images/head-image-2.webp) no-repeat right center; */
+        height: 350px;
+        /* background: url(../images/head-image-2.webp) no-repeat right center; 
        
     }
     .grid-container {
@@ -425,68 +509,4 @@ table {
             text-align: center;
             border-bottom: 1px solid #ddd;
         }
-}
-
-/* Medium devices (landscape tablets, up to 768px) */
-@media (max-width: 768px) {
-    #main-image {
-        height: 400px;
-    }
-    #cover-text {
-        width: 60%;       
-       }
-   #cover-text h1 {
-       font-family: 'Ubuntu', sans-serif;
-       font-size: 200%;
-       font-weight: bold;
-       color: #393636;
-   }
-
-    #prod-links li {
-        width: 100%;
-        text-align: center;
-        border-bottom: 1px solid #ddd;
-    }
-    #cover-text h1 {
-        font-size: 250%;   
-    }   
-    .grid-container {
-        display: grid;
-        grid-template-columns: auto auto;
-        gap: 1px;
-        width: 80%;  
-      }
-      .full-desc-left{
-        width: 100%;
-        /* float: left; */
-    
-    }
-    .full-desc-right{
-        width: 100%;
-        /* float: right; */
-    
-    }
-    .img-right-float {
-    float: right;
-    margin-left: 30px;
-}
-    
-}
-
-/* Large devices (small laptops and desktops, up to 900px ) */
-@media (max-width: 900px) {
-
-    #cover-text {
-        width: 50%;
-    }
-    
-    cover-text h1 {
-        font-size: 300%;
-     }
-
-}
-/* Large devices (laptops and desktops, up to 1200px ) */
-@media (max-width: 1200px) {
-    
-
 }
