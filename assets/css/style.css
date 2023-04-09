@@ -192,7 +192,7 @@ header {
 }
 #prod-links {
     width: 80%;
-    margin: 0 auto 0 auto;
+    margin: 40px auto 0 auto;
     font-size: 110%;
     letter-spacing: 2px;
 
@@ -391,7 +391,32 @@ table {
         height: 500px;
     }
 
- 
+ /* Large devices (laptops and desktops, up to 1200px ) */
+@media (max-width: 1200px) {
+    .full-desc-left {
+        margin-bottom: 30px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #ddd;
+        }
+    
+    .full-desc-right {
+        margin-bottom: 30px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #ddd;
+        }
+        #prod-links li {
+            width: 100%;
+            margin-top: 30px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+        #prod-links i {
+            margin-left: 0;
+        }
+        .faq{
+            
+        }
+}
 
 /* Large devices (small laptops and desktops, up to 900px ) */
 @media (max-width: 900px) {
@@ -414,25 +439,6 @@ table {
     padding-bottom: 20px;
     border-bottom: 1px solid #ddd;
     }
-}
-/* Large devices (laptops and desktops, up to 1200px ) */
-@media (max-width: 1200px) {
-    .full-desc-left {
-        margin-bottom: 30px;
-        padding-bottom: 20px;
-        border-bottom: 1px solid #ddd;
-        }
-    
-    .full-desc-right {
-        margin-bottom: 30px;
-        padding-bottom: 20px;
-        border-bottom: 1px solid #ddd;
-        }
-        #prod-links li {
-            width: 100%;
-            text-align: center;
-            border-bottom: 1px solid #ddd;
-        }
 }
 
 /* Medium devices (landscape tablets, up to 768px) */
