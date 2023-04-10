@@ -1179,4 +1179,17 @@ tr:nth-child(odd) {
         text-align: center;
         border-bottom: 1px solid #ddd;
     }
+    .social-networks{
+        width: 100%;
+    }
+    footer {
+        height: 10%;
+    }
+        .subscribe-form {
+            width: 60%;
+            margin-bottom: 0 auto 20px auto;
+        }
+        .subscribe-form-button {
+            width: 20%;
+        }
 }
