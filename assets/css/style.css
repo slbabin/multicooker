@@ -1126,6 +1126,14 @@ tr:nth-child(odd) {
 /* Extra small devices (phones, 600px and down) */
 @media screen and (max-width: 600px) {
 
+    header {
+        height: 120px;
+    }
+    #menu {
+        position: absolute;
+        top: 90px;
+        right: 22px;
+    }
     #cover-text {
         width: 70%;
 
@@ -1146,7 +1154,7 @@ tr:nth-child(odd) {
 
     .grid-container {
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto;
         gap: 1px;
         width: 80%;
     }
@@ -1156,8 +1164,9 @@ tr:nth-child(odd) {
     }
 
     .short-desc-img {
-        width: 195px;
+        width: 120px;
         height: auto;
+        margin-bottom:5px;
     }
 
     .grow:hover {
