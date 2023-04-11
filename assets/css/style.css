@@ -340,6 +340,13 @@ footer ul {
 }
 
 .grow:hover {
+    -webkit-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+    transform: scale(1.5);
+    transition: 1s ease;
+
+}
+.grow i:hover {
     /* -webkit-transform: scale(2);
         -ms-transform: scale(2); */
     transform: scale(2);
