@@ -1155,7 +1155,7 @@ tr:nth-child(odd) {
 
     #main-image {
         height: 350px;
-        /* background: url("../images/head-image-2.webp") no-repeat left left;  */
+        background: url("../images/head-image-mobile.webp") no-repeat center center; 
 
     }
 
