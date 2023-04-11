@@ -1,5 +1,6 @@
 ## List of features
 ## UX/UI
+![Desktop wireframe](../multicooker/assets/images/desktop-wireframe.png)
 ## Testing
 ## Deployment
 ## Citation of ALL sources(code,images, text)
