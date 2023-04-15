@@ -75,5 +75,18 @@ Typography
 <summary>Gallery page - Mobile version</summary>
 <img src="docs/mobile-gallery.png">
 </details>
-<!-- ![App Screenshot](docs/desktop-overview.png) -->
 
+## Technologies Used
+Languages Used
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+ Programs Used
+ - [GitHub:](https://github.com/) Used for version control and to store the projects code after being pushed from GitPod or Codeanywhere.
+
+  - [GitPod:](https://gitpod.io/) Used as cloud IDE to write the code and to commit and Push to GitHub.
+  - [Codeanywhere:](https://codeanywhere.com/) Alternative cloud IDE to GitPod
+  - [Font Awesome:](https://fontawesome.com/) It was used throughout the website to add icons for aesthetic and UX purposes.
+  - [Photopea:](https://www.photopea.com/) Online photo editor. Used for editing images.
+  - [Balsamiq:] Was used to create the wireframes.
+  - [Google fonts:](https://fonts.google.com/) Used to import the 'Monserat' font into the style.css file which is used on all pages throughout the project.
