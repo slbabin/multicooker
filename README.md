@@ -31,6 +31,7 @@ Website has three pages:
 ### Design
 Colour Scheme
 - Throughout the site it was used three main colours, dark brown, gray, and white.
+
 Typography
 - The Montserrat font was chosen as the main font throughout the whole website due to its clean and attractive design. Sans Serif  was chose as the fallback font.
 
