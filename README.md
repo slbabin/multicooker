@@ -91,3 +91,15 @@ Languages Used
   - [Photopea:](https://www.photopea.com/) Online photo editor. Used for editing images.
   - [Balsamiq:] Was used to create the wireframes.
   - [Google fonts:](https://fonts.google.com/) Used to import the 'Monserat' font into the style.css file which is used on all pages throughout the project.
+  
+  ## Testing
+
+  The code of all pages was run through the W3C Markup Validator and W3C CSS Validator Services to ensure there were no syntax errors in the project.
+<details>
+<summary>HTML5 validation</summary>
+<img src="docs/w3c-validation.png">
+</details>
+<details>
+<summary>SS3 validation</summary>
+<img src="docs/w3c-validation-1.png">
+</details>
