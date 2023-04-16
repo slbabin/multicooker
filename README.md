@@ -14,10 +14,44 @@ This website was built to provide visitors with all the information they need to
 
 ## List of features
 
+Main features:
+
 - Responsive design
 - Head image with the animation effect
 - CSS Gallery 
 - Subscribe for updates form
+
+
+The website comprizes of three pages: Overview, Specs, Gallery.
+
+To achieve a consistent look and funtionallity, all three pages have the same header which includes a logo and a navigational bar, a Product links section, and a footer, which includes a social bar and a Subscribe form.
+
+The navigational bar is responsive and allows the user to navigate through the site. It highlights the current page with the bottom border.
+
+THe main image section consist of the large, background hero image of the product. The image with the gradient effect takes 100% screen width. Its purpose is to catch the user's attention, and show the product as well as aesthetic look.
+
+The Overview page:
+
+The short description section provided information about the main features of the product.
+
+The Product links section consists of a five external links to the product manufacturer site. 
+
+The Specs page:
+
+This page displays a table with technical characteristics of the product. 
+
+The Gallery page:
+
+On this page, the head image was replaced with the video about the product. This video was streatched to the full width of the screen. 
+
+
+
+
+
+
+
+
+
 
 
 ## UX/UI
@@ -103,3 +137,11 @@ Languages Used
 <summary>SS3 validation</summary>
 <img src="docs/w3c-validation-1.png">
 </details>
+
+## Deployment
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. On the Repository page, click on the "Settings" button.
+3. Scroll down to the Pages tab on the left side.
+4. Under Branches select Main and click Save.
+5. The page will refresh and the link to the site will appear [https://slbabin.github.io/multicooker/](https://slbabin.github.io/multicooker/)
+
