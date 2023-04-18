@@ -9,10 +9,57 @@
 
 # Site info
 
-This website was built to provide visitors with all the information they need to know about the Tefal pressure cooker, including its features, benefits, and how to use it.
+This website was built to provide visitors with all the information they need to know about the Tefal All-in-One CY505E40 Pressure Cooker, including its features, benefits, and images of the product. I also provided links to the external pages with information about warranty, repairs, manuals, FAQs and contact pages.
+
+![Screenshot of how the site looks on differeent screen sizes](docs/responsive-screens.jpg)
+
+Link to the live site [here](https://slbabin.github.io/multicooker/). 
+
+## Features
+
+The website comprizes of three pages: Overview, Specs, Gallery.
+
+To achieve a consistent look and funtionallity, all three pages have the same sections:
+1. A header, which header includes a logo and a navigational bar.
+2. A product links section.
+3. A footer, which includes a social links bar and a subscribe form.
+
+- __Navigation__
+
+    - The navigational bar is responsive and allows the user to navigate through the site. It highlights the current page with the bottom border. On the left side of the nav bar is located a logo with with the home page link, to provide easy way to return to the home page from any other page.
+![Screenshot of a navigational bar](docs/navbar.jpg)
 
 
-## List of features
+- __The main image section__
+
+    - The main image section consist of the large, background hero image of the product. The image with the gradient effect takes 100% screen width. Its purpose is to catch the user's attention, and show the product as well as aesthetic look.
+    - On the left site of the image there is a text block with the full name of the product. The product name inclosed in the H1 tags and should assist SEO of the site.
+ ![Screenshot of the head image section](docs/head-image.jpg)
+
+
+
+- __Short description section__
+
+     - This section provides information about the main features of the product. The list of features displayed in a grid table.
+     ![Screenshot of the short description section](docs/short-description-section.jpg)
+  
+
+ - __Full description section__
+
+     - This section provides more details about the product. It also includes thumbnail images of the product with the zoom-in effect.
+     ![Screenshot of the full description section](docs/full-description-section.jpg) 
+
+   - __Product links section__
+
+     - This section alows a user to access the manufacturer's site if they need information about warranty, repairs, manuals, FAQs and contact pages. All links in this sections open in a new browser tab, which makes the user not loose a connection with this site.
+     ![Screenshot of the Product links section](docs/product-links.jpg)    
+
+    - __Footer__
+
+     - The footer consist of two section, the social links bar, and the subcscribe form. 
+     - All links in the social bar open in a new browser tab.
+     - The subscribe form consist of a single required email field and the submit button.
+     ![Screenshot of the Product links section](docs/footer.jpg)        
 
 Main features:
 
@@ -22,13 +69,11 @@ Main features:
 - Subscribe for updates form
 
 
-The website comprizes of three pages: Overview, Specs, Gallery.
 
-To achieve a consistent look and funtionallity, all three pages have the same header which includes a logo and a navigational bar, a Product links section, and a footer, which includes a social bar and a Subscribe form.
 
 The navigational bar is responsive and allows the user to navigate through the site. It highlights the current page with the bottom border.
 
-THe main image section consist of the large, background hero image of the product. The image with the gradient effect takes 100% screen width. Its purpose is to catch the user's attention, and show the product as well as aesthetic look.
+The main image section consist of the large, background hero image of the product. The image with the gradient effect takes 100% screen width. Its purpose is to catch the user's attention, and show the product as well as aesthetic look.
 
 The Overview page:
 
