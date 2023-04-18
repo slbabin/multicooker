@@ -1,12 +1,3 @@
-## List of features
-## UX/UI
-## Testing
-## Deployment
-## Citation of ALL sources(code,images, text)
-## Future features
-## Known Bugs
-
-
 # Site info
 
 This website was built to provide visitors with all the information they need to know about the Tefal All-in-One CY505E40 Pressure Cooker, including its features, benefits, and images of the product. I also provided links to the external pages with information about warranty, repairs, manuals, FAQs and contact pages.
@@ -27,6 +18,7 @@ To achieve a consistent look and funtionallity, all three pages have the same se
 - __Navigation__
 
     - The navigational bar is responsive and allows the user to navigate through the site. It highlights the current page with the bottom border. On the left side of the nav bar is located a logo with with the home page link, to provide easy way to return to the home page from any other page.
+
 ![Screenshot of a navigational bar](docs/navbar.jpg)
 
 
@@ -34,6 +26,7 @@ To achieve a consistent look and funtionallity, all three pages have the same se
 
     - The main image section consist of the large, background hero image of the product. The image with the gradient effect takes 100% screen width. Its purpose is to catch the user's attention, and show the product as well as aesthetic look.
     - On the left site of the image there is a text block with the full name of the product. The product name inclosed in the H1 tags and should assist SEO of the site.
+
  ![Screenshot of the head image section](docs/head-image.jpg)
 
 
@@ -41,120 +34,124 @@ To achieve a consistent look and funtionallity, all three pages have the same se
 - __Short description section__
 
      - This section provides information about the main features of the product. The list of features displayed in a grid table.
+
      ![Screenshot of the short description section](docs/short-description-section.jpg)
   
 
  - __Full description section__
 
      - This section provides more details about the product. It also includes thumbnail images of the product with the zoom-in effect.
+
      ![Screenshot of the full description section](docs/full-description-section.jpg) 
 
-   - __Product links section__
+- __Product links section__
 
-     - This section alows a user to access the manufacturer's site if they need information about warranty, repairs, manuals, FAQs and contact pages. All links in this sections open in a new browser tab, which makes the user not loose a connection with this site.
+     - This section alows a user to access the manufacturer's site if they need information about a warranty, repairs, manuals, FAQs and contact pages. All links in this sections open in a new browser tab, which allows the user not loose a connection with this site.
+
      ![Screenshot of the Product links section](docs/product-links.jpg)    
 
-    - __Footer__
+- __Footer__
 
      - The footer consist of two section, the social links bar, and the subcscribe form. 
      - All links in the social bar open in a new browser tab.
      - The subscribe form consist of a single required email field and the submit button.
+
      ![Screenshot of the Product links section](docs/footer.jpg)        
 
-Main features:
 
-- Responsive design
-- Head image with the animation effect
-- CSS Gallery 
-- Subscribe for updates form
+- __The Specs page__
 
+     - On this page the user can view technical characterists of the product, which are presented using a styled table. 
+     - A Parallax scrolling was used to achieve the illusion of depth and provide a better user experience.
 
+     ![Screenshot of the Product links section](docs/specs.jpg)  
 
+- __The Gallery page__
 
-The navigational bar is responsive and allows the user to navigate through the site. It highlights the current page with the bottom border.
+     - On this page, the head image was replaced with the video about the product. The video is stretched to 100% of the screen width and displays the product and its abilities in action. 
 
-The main image section consist of the large, background hero image of the product. The image with the gradient effect takes 100% screen width. Its purpose is to catch the user's attention, and show the product as well as aesthetic look.
+     ![Screenshot of the Product links section](docs/gallery-video.jpg) 
 
-The Overview page:
+     - Below the video, located the gallery with images of the product and accessories. The gallery allows to view the image in zoomed up mode when hovering over the image with a mouse. 
+     
+     ![Screenshot of the Product links section](docs/gallery.jpg)  
 
-The short description section provided information about the main features of the product.
+## Design
 
-The Product links section consists of a five external links to the product manufacturer site. 
-
-The Specs page:
-
-This page displays a table with technical characteristics of the product. 
-
-The Gallery page:
-
-On this page, the head image was replaced with the video about the product. This video was streatched to the full width of the screen. 
-
-
-
-
-
-
-
-
-
-
-
-## UX/UI
-
-### User experience
-Website has three pages:
-- The Overview page cosists of six sections: Menu, Head image, Short description, Full descripton, Product links, and Social link with the Subscribe for updates form.  
-- The Specs page contains a table with tecnical specs of the product.
-- The Gallery page displays a video about the product and images.
-
-### Design
-Colour Scheme
-- Throughout the site it was used three main colours, dark brown, gray, and white.
-
-Typography
-- The Montserrat font was chosen as the main font throughout the whole website due to its clean and attractive design. Sans Serif  was chose as the fallback font.
-
-## Wireframes
+- Wireframes
 <details>
-<summary>Overview page - Desktop version</summary>
+<summary>Overview page - Desktop</summary>
 <img src="docs/desktop-overview.png">
 </details>
-
 <details>
-<summary>Specs page - Desktop version</summary>
+<summary>Specs page - Desktop</summary>
 <img src="docs/deskop-specs.png">
 </details>
-
 <details>
-<summary>Gallery page - Desktop version</summary>
+<summary>Gallery page - Desktop</summary>
 <img src="docs/deskop-gallery.png">
 </details>
 <br>
 <details>
-<summary>Overview page - iPad version</summary>
+<summary>Overview page - iPad</summary>
 <img src="docs/ipad-overview.png">
 </details>
 <details>
-<summary>Specs page - iPad version</summary>
+<summary>Specs page - iPad</summary>
 <img src="docs/ipad-specs.png">
 </details>
 <details>
-<summary>Gallery page - iPad version</summary>
+<summary>Gallery page - iPad</summary>
 <img src="docs/ipad-specs.png">
 </details>
 <br>
 <details>
-<summary>Overview page - Mobile version</summary>
+<summary>Overview page - Mobile</summary>
 <img src="docs/mobile-overview.png">
 </details>
 <details>
-<summary>Specs page - Mobile version</summary>
+<summary>Specs page - Mobile</summary>
 <img src="docs/mobile-specs.png">
 </details>
 <details>
-<summary>Gallery page - Mobile version</summary>
+<summary>Gallery page - Mobile</summary>
 <img src="docs/mobile-gallery.png">
 </details>
+
+__Colour Scheme__
+    - Throughout the site it was used three main colours, dark brown, gray, and white.
+
+__Typography__
+    - The Montserrat font was chosen as the main font throughout the whole website due to its clean and attractive design. Sans Serif  was chosen as the fallback font.
+
+## Testing
+
+- The site performanse and look was tested in different browsers: Chrome, Firefox, Edge, Opera. 
+- In all of the tested browsers the site was responsive and provided a consisted look and performance on different screen sizes.
+- I confirmed that all links are properly redirecting to correct pages. The text on all pages is easy readable.  Images are proportional and don't look pixelated.
+
+- The code of all pages was run through the W3C Markup Validator, W3C CSS Validator, and in the lighthouse devtool Services to ensure there were no syntax errors in the project.
+
+<details>
+<summary>HTML5 validation</summary>
+<img src="docs/w3c-html-validation.jpg">
+</details>
+<details>
+<summary>SS3 validation</summary>
+<img src="docs/w3c-css-validation.png">
+</details>
+<details>
+<summary>Accecibilty validation in Lighthouse</summary>
+<img src="docs/lighthouse.png">
+</details>
+
+## Deployment
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. On the Repository page, click on the "Settings" button.
+3. Scroll down to the Pages tab on the left side.
+4. Under Branches select Main and click Save.
+5. The page will refresh and the link to the site will appear [https://slbabin.github.io/multicooker/](https://slbabin.github.io/multicooker/)
+
 
 ## Technologies Used
 Languages Used
@@ -170,23 +167,12 @@ Languages Used
   - [Photopea:](https://www.photopea.com/) Online photo editor. Used for editing images.
   - [Balsamiq:] Was used to create the wireframes.
   - [Google fonts:](https://fonts.google.com/) Used to import the 'Monserat' font into the style.css file which is used on all pages throughout the project.
-  
-  ## Testing
 
-  The code of all pages was run through the W3C Markup Validator and W3C CSS Validator Services to ensure there were no syntax errors in the project.
-<details>
-<summary>HTML5 validation</summary>
-<img src="docs/w3c-validation.png">
-</details>
-<details>
-<summary>SS3 validation</summary>
-<img src="docs/w3c-validation-1.png">
-</details>
 
-## Deployment
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-2. On the Repository page, click on the "Settings" button.
-3. Scroll down to the Pages tab on the left side.
-4. Under Branches select Main and click Save.
-5. The page will refresh and the link to the site will appear [https://slbabin.github.io/multicooker/](https://slbabin.github.io/multicooker/)
+## Credits
+__Content__
+ - The text for the Oveview and the Specs pages was taken from manufacturer's website [Tefal.co.uk](https://www.tefal.co.uk/Cooking-appliances/Pressure-Cookers/Pressure-Cookers/Tefal-All-in-One-CY505-Pressure-Cooker-%E2%80%93-6L-Black-%26-Stainless-Steel-/p/7211003272?scc=pressure-cookers-cat).
+ - Instructions on how to create a parallax scroll effect was taken from [https://www.w3schools.com/](https://www.w3schools.com/howto/howto_css_parallax.asp)
 
+__Media__
+- Images and the video were taking from [Tefal.co.uk](https://www.tefal.co.uk/Cooking-appliances/Pressure-Cookers/Pressure-Cookers/Tefal-All-in-One-CY505-Pressure-Cooker-%E2%80%93-6L-Black-%26-Stainless-Steel-/p/7211003272?scc=pressure-cookers-cat) and [Amazon.co.uk](https://www.amazon.co.uk/Tefal-CY505E40-Electric-Pressure-Stainless/dp/B07C1MPN1S).
