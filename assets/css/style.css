@@ -382,7 +382,6 @@ tr:nth-child(odd) {
     /* Set a specific height */
     min-height: 500px;
 
-
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -614,4 +613,14 @@ tr:nth-child(odd) {
     .subscribe-form-button {
         width: 20%;
     }
+}
+/* Extra large screens (monitors from 1900px ) */
+@media (min-width: 1900px) {
+    .parallax {
+  
+        background-position-y: 25%;
+    }
+       
+       
+
 }
