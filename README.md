@@ -145,6 +145,12 @@ __Typography__
 <img src="docs/lighthouse.png">
 </details>
 
+__Bugs__
+
+- When checking the page Specs on a large screen, I  noticed that a margin appeared on the top of the main image section. This marging shifted down the main image container box and it appeared to be cut off from the bottom. I couldn't find what was causing that margin, however, I was able to fix
+ this issue by creating an additional breakpoint with the min-width 1900px and adding a background-position-y: 25% attribute to it. 
+
+
 ## Deployment
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
 2. On the Repository page, click on the "Settings" button.
