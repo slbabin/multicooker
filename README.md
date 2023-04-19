@@ -2,30 +2,30 @@
 
 This website was built to provide visitors with all the information they need to know about the Tefal All-in-One CY505E40 Pressure Cooker, including its features, benefits, and images of the product. I also provided links to the external pages with information about warranty, repairs, manuals, FAQs and contact pages.
 
-![Screenshot of how the site looks on differeent screen sizes](docs/responsive-screens.jpg)
+![Screenshot of how the site looks on different screen sizes](docs/responsive-screens.jpg)
 
 Link to the live site [here](https://slbabin.github.io/multicooker/). 
 
 ## Features
 
-The website comprizes of three pages: Overview, Specs, Gallery.
+The website comprises of three pages: Overview, Specs, Gallery.
 
-To achieve a consistent look and funtionallity, all three pages have the same sections:
+To achieve a consistent look and functionality, all three pages have the same sections:
 1. A header, which header includes a logo and a navigational bar.
 2. A product links section.
 3. A footer, which includes a social links bar and a subscribe form.
 
 - __Navigation__
 
-    - The navigational bar is responsive and allows the user to navigate through the site. It highlights the current page with the bottom border. On the left side of the nav bar is located a logo with with the home page link, to provide easy way to return to the home page from any other page.
+    - The navigational bar is responsive and allows the user to navigate through the site. It highlights the current page with the bottom border. On the left side of the nav bar is located a logo with the home page link, to provide easy way to return to the home page from any other page.
 
 ![Screenshot of a navigational bar](docs/navbar.jpg)
 
 
 - __The main image section__
 
-    - The main image section consist of the large, background hero image of the product. The image with the gradient effect takes 100% screen width. Its purpose is to catch the user's attention, and show the product as well as aesthetic look.
-    - On the left site of the image there is a text block with the full name of the product. The product name inclosed in the H1 tags and should assist SEO of the site.
+    - The main image section consists of the large, background hero image of the product. The image with the gradient effect takes 100% screen width. Its purpose is to catch the user's attention and show the product, as well as to provide an aesthetic look.
+    - On the left site of the image there is a text block with the full name of the product. The product name enclosed in the H1 tags and should assist SEO of the site.
 
  ![Screenshot of the head image section](docs/head-image.jpg)
 
@@ -46,7 +46,7 @@ To achieve a consistent look and funtionallity, all three pages have the same se
 
 - __Product links section__
 
-     - This section alows a user to access the manufacturer's site if they need information about a warranty, repairs, manuals, FAQs and contact pages. All links in this sections open in a new browser tab, which allows the user not loose a connection with this site.
+     - This section allows a user to access the manufacturer's site if they need information about a warranty, repairs, manuals, FAQs and contact pages. All links in this sections open in a new browser tab, which allows the user not loose a connection with this site.
 
      ![Screenshot of the Product links section](docs/product-links.jpg)    
 
@@ -61,7 +61,7 @@ To achieve a consistent look and funtionallity, all three pages have the same se
 
 - __The Specs page__
 
-     - On this page the user can view technical characterists of the product, which are presented using a styled table. 
+     - On this page the user can view technical characteristics of the product, which are presented using a styled table. 
      - A Parallax scrolling was used to achieve the illusion of depth and provide a better user experience.
 
      ![Screenshot of the Product links section](docs/specs.jpg)  
@@ -126,11 +126,11 @@ __Typography__
 
 ## Testing
 
-- The site performanse and look was tested in different browsers: Chrome, Firefox, Edge, Opera. 
+- The site performance and look was tested in different browsers: Chrome, Firefox, Edge, Opera. 
 - In all of the tested browsers the site was responsive and provided a consisted look and performance on different screen sizes.
 - I confirmed that all links are properly redirecting to correct pages. The text on all pages is easy readable.  Images are proportional and don't look pixelated.
 
-- The code of all pages was run through the W3C Markup Validator, W3C CSS Validator, and in the lighthouse devtool Services to ensure there were no syntax errors in the project.
+- The code of all pages was run through the W3C Markup Validator, W3C CSS Validator, and in the Lighthouse devtool services to ensure there were no syntax errors in the project.
 
 <details>
 <summary>HTML5 validation</summary>
@@ -147,8 +147,8 @@ __Typography__
 
 __Bugs__
 
-- When checking the page Specs on a large screen, I  noticed that a margin appeared on the top of the main image section. This marging shifted down the main image container box and it appeared to be cut off from the bottom. I couldn't find what was causing that margin, however, I was able to fix
- this issue by creating an additional breakpoint with the min-width 1900px and adding a background-position-y: 25% attribute to it. 
+- When checking the page Specs on a large screen, I  noticed that a margin appeared on the top of the main image section. This margin shifted down the main image container box and it appeared to be cut off from the bottom. I couldn't find what was causing that margin, however, I was able to fix
+ this issue by creating an additional breakpoint with the min-width 1900px and adding the background-position-y: 25% attribute to it. 
 
 
 ## Deployment
