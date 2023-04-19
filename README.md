@@ -171,7 +171,7 @@ Languages Used
   - [Codeanywhere:](https://codeanywhere.com/) Alternative cloud IDE to GitPod
   - [Font Awesome:](https://fontawesome.com/) It was used throughout the website to add icons for aesthetic and UX purposes.
   - [Photopea:](https://www.photopea.com/) Online photo editor. Used for editing images.
-  - [Balsamiq:] (https://balsamiq.com/wireframes/) Was used to create the wireframes.
+  - [Balsamiq:](https://balsamiq.com/wireframes/) Was used to create the wireframes.
   - [Google fonts:](https://fonts.google.com/) Used to import the 'Monserat' font into the style.css file which is used on all pages throughout the project.
 
 
