@@ -171,14 +171,15 @@ Languages Used
   - [Codeanywhere:](https://codeanywhere.com/) Alternative cloud IDE to GitPod
   - [Font Awesome:](https://fontawesome.com/) It was used throughout the website to add icons for aesthetic and UX purposes.
   - [Photopea:](https://www.photopea.com/) Online photo editor. Used for editing images.
-  - [Balsamiq:] Was used to create the wireframes.
+  - [Balsamiq:] (https://balsamiq.com/wireframes/) Was used to create the wireframes.
   - [Google fonts:](https://fonts.google.com/) Used to import the 'Monserat' font into the style.css file which is used on all pages throughout the project.
 
 
 ## Credits
 __Content__
  - The text for the Oveview and the Specs pages was taken from manufacturer's website [Tefal.co.uk](https://www.tefal.co.uk/Cooking-appliances/Pressure-Cookers/Pressure-Cookers/Tefal-All-in-One-CY505-Pressure-Cooker-%E2%80%93-6L-Black-%26-Stainless-Steel-/p/7211003272?scc=pressure-cookers-cat).
- - Instructions on how to create a parallax scroll effect was taken from [https://www.w3schools.com/](https://www.w3schools.com/howto/howto_css_parallax.asp)
+ - Instructions on how to create a parallax scroll effect was taken from [https://www.w3schools.com/](https://www.w3schools.com/howto/howto_css_parallax.asp).
+ - The gallery  was based on the code taking from [https://dev.to/](https://dev.to/nazanin_ashrafi/create-an-image-gallery-using-flexbox-441a).
 
 __Media__
 - Images and the video were taking from [Tefal.co.uk](https://www.tefal.co.uk/Cooking-appliances/Pressure-Cookers/Pressure-Cookers/Tefal-All-in-One-CY505-Pressure-Cooker-%E2%80%93-6L-Black-%26-Stainless-Steel-/p/7211003272?scc=pressure-cookers-cat) and [Amazon.co.uk](https://www.amazon.co.uk/Tefal-CY505E40-Electric-Pressure-Stainless/dp/B07C1MPN1S).
